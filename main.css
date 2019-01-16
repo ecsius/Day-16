@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.img {
+    width: 240px;
+    height: 400px;
+    background: #000;
+    display: inline-block;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+.img:hover {
+    background-position: bottom center;
+    transform: scale(1.2);
+}
+.img1 {
+    background-image: url(i1.jpg);
+}
+.img2 {
+    background-image: url(i2.jpg);
+}
+.img3 {
+    background-image: url(i3.jpg);
+}
